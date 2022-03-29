@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Play&family=Ubuntu+Mono&display=swap');
+
+
+html{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    background: #FF0038;
+    
+    text-align: center;      
+}
+
+
+#input {
+    margin-bottom: 20px !important;
+    width:80%;
+    height: 50px;
+
+    margin-left: 10% !important;
+}
+
+
+
+
+.sign_in_form {
+    padding-top: 15vh;
+}
+
+
+.content {
+    background-color: #302625;
+    
+    width: 100%;
+    min-height:100%;
+    position:absolute;
+
+    color:white;
+
+    background-size: 100%;
+    font-family: "Audiowide", sans-serif;
+}
+
+a {
+    color:white;
+    text-decoration: None;
+    font-family: "Audiowide", sans-serif;
+}
+
+
+#option {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+    font-size: 30px;
+
+}
+
+
+.main_box {
+    text-align: center;
+}
+
+
+.title_img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#button {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+
+.slideshow {
+    max-height: 40%;
+    margin-top: 30px;
+}
+
+.row {
+    margin-bottom: 70px;
+}
+
+.search_bar {
+    width: 80%;
+    margin:auto;
+}
+
+
+.option-container {
+    position:relative;
+
+    left:8%;
+}
+

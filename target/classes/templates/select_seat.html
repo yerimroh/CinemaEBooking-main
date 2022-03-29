@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <!-- CSS -->
+    <link rel = "stylesheet" href = "./css/select_seat.css">
+
+    <!-- Font link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <title>Select Seats</title>
+  </head>
+  <body>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    
+    
+    <!-- Body -->
+    
+      <section class = "select_seats header">
+        <div class = "row">
+          <div class="d-flex justify-content-between py-4 px-5">
+            <a href="./select_time.html"><img src="./assets\back2.png" alt="back to home" style="width:50px;height:50px;" id = "button"></a>
+         
+            <h1 id = "title">Select Seat</h1>
+            <button class = "btn btn-danger" type="button" onclick="document.location='./login.html'"> Sign In </button>   
+          </div>
+        </div>
+        
+
+
+      <section class = "content py-0 px-0" style =" background-image: url(./thumbnail/avengers_poster.jpg);">
+        <!-- Top Row / Thumbnail & Title & Time/Date -->
+        <div class = "row main_box ">
+
+          <div class = "top_box">
+            <div class = "col-lg-2">
+              <!-- ************************************************ -->
+                <!-- Change the poster image later on -->
+                <img id = "thumbnail" src="./thumbnail/avengers_poster.jpg" alt = "avengers_poster" style="width:200px;">
+            </div>
+  
+            <div class = "col-lg-6">
+              <!-- Movie Title -->
+              <!-- Retrieve from previous Page -->
+              <h2 id = "title"> Movie Title </h2>
+            </div>
+
+            <div class = "col-lg-2 col-xs-offset-right-2">
+              <!-- Time/Date-->
+              <!-- Retrieve from previous Page -->
+              <h2 id = "title"> Date/Time </h2>
+            </div>
+          </div>
+          <!-- Top Box ends Here -->
+
+
+          
+
+          
+          
+
+          <!-- Form Starts Here -->
+          <form class = "get_ticket_form" method="post" action = "fucntion_that_calculates_numbofTickets()">
+            <!-- Bottom Row / Seats & # of Tickets -->
+            <!-- Bottom Box starts here -->
+            <div class = "row bottom-box py-4 px-5">
+                <!-- Movie Hall Representation -->
+                <div class = "offset-md-1 col-lg-7 hall_container">
+
+                  <!-- Hall Container -->
+                  <!-- Screen -->
+                  <p style = "text-align:left;"> The number of tickets selected & seats selected must be equal. </p>
+                  <div class = "screen" style = "transform: rotateX(45deg);">          </div>
+
+                  <!-- Row -->
+                  <div class = "movie_row">
+                    <!-- Seats -->
+                    <div class = "seat" value = "A1"> </div>
+                    <div class = "seat" value = "A2"> </div>
+                    <div class = "seat" value = "A3"> </div>
+                    <div class = "seat" value = "A4"> </div> 
+                    <div class = "seat" value = "A5"> </div>
+                    <div class = "seat" value = "A6"> </div>
+                    <div class = "seat" value = "A7"> </div>
+                    <div class = "seat" value = "A8"> </div>
+                  </div>
+                  <div class = "movie_row">
+                    <!-- Seats -->
+                    <div class = "seat" value = "B1"> </div>
+                    <div class = "seat" value = "B2"> </div>
+                    <div class = "seat" value = "B3"> </div> 
+                    <div class = "seat" value = "B4"> </div>
+                    <div class = "seat" value = "B5"> </div>
+                    <div class = "seat" value = "B6"> </div>
+                    <div class = "seat" value = "B7"> </div>
+                    <div class = "seat" value = "B8"> </div>
+                  </div>
+                  <div class = "movie_row">
+                    <!-- Seats -->
+                    <div class = "seat" value = "C1"> </div>
+                    <div class = "seat" value = "C2"> </div>
+                    <div class = "seat" value = "C3"> </div> 
+                    <div class = "seat" value = "C4"> </div>
+                    <div class = "seat" value = "C5"> </div>
+                    <div class = "seat" value = "C6"> </div>
+                    <div class = "seat" value = "C7"> </div>
+                    <div class = "seat" value = "C8"> </div>
+                  </div>
+                  <div class = "movie_row">
+                    <!-- Seats -->
+                    <div class = "seat" value = "D1"> </div>
+                    <div class = "seat" value = "D2"> </div>
+                    <div class = "seat" value = "D3"> </div> 
+                    <div class = "seat" value = "D4"> </div>
+                    <div class = "seat" value = "D5"> </div>
+                    <div class = "seat" value = "D6"> </div>
+                    <div class = "seat" value = "D7"> </div>
+                    <div class = "seat" value = "D8"> </div>
+                  </div>
+                  <div class = "movie_row">
+                    <!-- Seats -->
+                    <div class = "seat" value = "E1"> </div>
+                    <div class = "seat" value = "E2"> </div>
+                    <div class = "seat" value = "E3"> </div> 
+                    <div class = "seat" value = "E4"> </div>
+                    <div class = "seat" value = "E5"> </div>
+                    <div class = "seat" value = "E6"> </div>
+                    <div class = "seat" value = "E7"> </div>
+                    <div class = "seat" value = "E8"> </div>
+                  </div>
+                </div>
+
+                <!-- Ticket Inputs -->
+                <div class = "col-lg-3 col-xs-offset-right-1 ticket_inputs">
+                  <label id = "description"> # of Children </label> <br>
+                  <input type = "number" name = "child_ticket" class = "form-control" id = "child_ticket" placeholder = "# of Children" min = "0" max = "40"> 
+
+                  <label id = "description"> # of Adults </label> <br>
+                  <input type = "number" name = "adult_ticket" class = "form-control" id = "adult_ticket" placeholder = "# of Adults" min = "0" max = "40"> 
+
+                  <label id = "description"> # of Seniors </label> <br>
+                  <input type = "number" name = "senior_ticket" class = "form-control" id = "senior_ticket" placeholder = "# of Seniors" min = "0" max = "40"> 
+
+                  <br>
+                  <p class = "text"> You have selected <span id ="seatCount">0</span> seats.</p>
+                  <p class = "text"> Total: $<span id ="priceTotal">0</span>.00</p>
+
+                  <!-- Checkout Button -->
+                  <button class = "btn btn-danger" id = "checkoutBtn" type="button" onclick="document.location='./order_summary.html'; valueSender();" style = "margin-top: 20px; width: 130px; height: 50px;"> Checkout </button>   
+                </div>
+            </div>
+          </form>
+          <!-- Form Ends Here -->
+        
+
+      </section>
+
+
+    </section>
+  
+
+    <!-- JS -->
+    <script src = "../select_seat.js"> </script>
+    
+  </body>
+</html>

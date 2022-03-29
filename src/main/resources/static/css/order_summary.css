@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Play&family=Ubuntu+Mono&display=swap');
+
+html{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    background: #FF0038;
+    
+    text-align: center;
+}
+
+
+
+.top {
+    background-color: #FF0038;
+}
+
+.content {
+    background-color: #131010;
+    width: 100%;
+    position:absolute;
+    top: 15%;
+
+    align-items: center;
+    color:white;
+
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+
+    background-blend-mode: overlay;
+
+    padding-top: 30px;
+}
+
+
+.header {
+    background-color: #131010;
+    height: 10%;
+    width: 30%;
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    transform: skew(20deg);
+    border-radius: 10px;
+    
+    color:white;
+
+    line-height: 10%;
+    font-size: smaller;
+    text-align:center;
+
+    font-family: "Audiowide", sans-serif;
+    padding: px;
+}
+
+
+
+#button {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+
+table, tr, td  {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: 'Play', sans-serif;
+}
+
+#description {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+background: #2e2d2d;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: black;    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 3px solid #2e2d2d;  /* creates padding around scroll thumb */
+}

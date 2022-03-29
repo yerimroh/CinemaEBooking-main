@@ -1,0 +1,62 @@
+html{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    background: #282633;
+    text-align: center;
+    
+}
+
+#input {
+   
+    margin-bottom: 20px !important;
+
+    width:20%; 
+    height: 40px;
+    background-color:#2e2d2d;
+    color: white;
+}
+
+.title_img {
+    margin: auto;
+}
+
+.main_box {
+    top: 20%;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 5%;
+    padding-top: 6%;
+}
+
+.centered_text {
+    width: 30%;
+    margin:auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+h3 {
+    padding-top: 5%;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+
+a {
+    color:white;
+    text-decoration: None;
+    font-family: "Audiowide", sans-serif;
+}
+
+
+button {
+    width: 20%;
+}
+
+.container {
+    padding-top: 20%;   
+}

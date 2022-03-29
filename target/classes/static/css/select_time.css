@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Play&family=Ubuntu+Mono&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+
+    background-color: black;
+   
+
+}
+
+
+.content {
+    background-color: #131010;
+    width: 100%;
+    position:absolute;
+    top: 15%;
+
+    align-items: center;
+    color:white;
+
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+
+    background-blend-mode: overlay;
+
+    text-align: center;
+}
+
+.header {
+    background-color:black;
+    color:white;
+}
+
+#title {
+    font-family: "Audiowide", sans-serif;
+}
+
+
+.top_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+
+.bottom_box {
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+p {
+    margin: 5px; 
+}
+
+
+#thumbnail {
+    border-radius: 20px;
+}
+
+
+.select {
+    background-color: transparent;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+
+    text-align:center;
+    color: white;
+
+    border-radius : 20px;
+}
+
+
+
+
+
+
+.select option {
+    padding: 5px;
+}
+
+
+#icon {
+    margin:auto;
+}
+
+
+
+
+
+#description {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+}
